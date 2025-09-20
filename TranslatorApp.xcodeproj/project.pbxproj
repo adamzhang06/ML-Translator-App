@@ -13,11 +13,11 @@
 		1A123456789ABCDEF0000004 /* TranslationStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A123456789ABCDEF000000A /* TranslationStore.swift */; };
 		1A123456789ABCDEF0000005 /* OverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A123456789ABCDEF000000B /* OverlayView.swift */; };
 		1A123456789ABCDEF0000006 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A123456789ABCDEF000000C /* Assets.xcassets */; };
-		1A123456789ABCDEF0000010 /* EnhancedTranslationStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A123456789ABCDEF000000E /* EnhancedTranslationStore.swift */; };
-		1A123456789ABCDEF0000011 /* CoreMLTranslationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A123456789ABCDEF000000F /* CoreMLTranslationService.swift */; };
-		1A123456789ABCDEF0000012 /* FaceDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A123456789ABCDEF0000010 /* FaceDetector.swift */; };
-		1A123456789ABCDEF0000013 /* FaceCaptionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A123456789ABCDEF0000011 /* FaceCaptionService.swift */; };
-		1A123456789ABCDEF0000014 /* EnhancedOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A123456789ABCDEF0000012 /* EnhancedOverlayView.swift */; };
+		1A123456789ABCDEF000001C /* EnhancedTranslationStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A123456789ABCDEF000000E /* EnhancedTranslationStore.swift */; };
+		1A123456789ABCDEF000001D /* CoreMLTranslationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A123456789ABCDEF000000F /* CoreMLTranslationService.swift */; };
+		1A123456789ABCDEF000001E /* FaceDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A123456789ABCDEF000001F /* FaceDetector.swift */; };
+		1A123456789ABCDEF0000020 /* FaceCaptionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A123456789ABCDEF0000021 /* FaceCaptionService.swift */; };
+		1A123456789ABCDEF0000022 /* EnhancedOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A123456789ABCDEF0000023 /* EnhancedOverlayView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,9 +31,9 @@
 		1A123456789ABCDEF000000D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1A123456789ABCDEF000000E /* EnhancedTranslationStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnhancedTranslationStore.swift; sourceTree = "<group>"; };
 		1A123456789ABCDEF000000F /* CoreMLTranslationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreMLTranslationService.swift; sourceTree = "<group>"; };
-		1A123456789ABCDEF0000010 /* FaceDetector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceDetector.swift; sourceTree = "<group>"; };
-		1A123456789ABCDEF0000011 /* FaceCaptionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceCaptionService.swift; sourceTree = "<group>"; };
-		1A123456789ABCDEF0000012 /* EnhancedOverlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnhancedOverlayView.swift; sourceTree = "<group>"; };
+		1A123456789ABCDEF000001F /* FaceDetector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceDetector.swift; sourceTree = "<group>"; };
+		1A123456789ABCDEF0000021 /* FaceCaptionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceCaptionService.swift; sourceTree = "<group>"; };
+		1A123456789ABCDEF0000023 /* EnhancedOverlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnhancedOverlayView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,15 +47,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1A123456789ABCDEF0000011 = {
+		1A123456789ABCDEF0000024 = {
 			isa = PBXGroup;
 			children = (
-				1A123456789ABCDEF0000012 /* TranslatorApp */,
+				1A123456789ABCDEF0000025 /* TranslatorApp */,
 				1A123456789ABCDEF0000013 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		1A123456789ABCDEF0000012 /* TranslatorApp */ = {
+		1A123456789ABCDEF0000025 /* TranslatorApp */ = {
 			isa = PBXGroup;
 			children = (
 				1A123456789ABCDEF0000007 /* StarterApp.swift */,
@@ -80,7 +80,7 @@
 			children = (
 				1A123456789ABCDEF0000008 /* CameraView.swift */,
 				1A123456789ABCDEF000000B /* OverlayView.swift */,
-				1A123456789ABCDEF0000012 /* EnhancedOverlayView.swift */,
+				1A123456789ABCDEF0000023 /* EnhancedOverlayView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -92,8 +92,8 @@
 				1A123456789ABCDEF000000A /* TranslationStore.swift */,
 				1A123456789ABCDEF000000E /* EnhancedTranslationStore.swift */,
 				1A123456789ABCDEF000000F /* CoreMLTranslationService.swift */,
-				1A123456789ABCDEF0000010 /* FaceDetector.swift */,
-				1A123456789ABCDEF0000011 /* FaceCaptionService.swift */,
+				1A123456789ABCDEF000001F /* FaceDetector.swift */,
+				1A123456789ABCDEF0000021 /* FaceCaptionService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -141,7 +141,7 @@
 				en,
 				Base,
 			);
-			mainGroup = 1A123456789ABCDEF0000011;
+			mainGroup = 1A123456789ABCDEF0000024;
 			productRefGroup = 1A123456789ABCDEF0000013 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -172,11 +172,11 @@
 				1A123456789ABCDEF0000003 /* TextRecognizer.swift in Sources */,
 				1A123456789ABCDEF0000004 /* TranslationStore.swift in Sources */,
 				1A123456789ABCDEF0000005 /* OverlayView.swift in Sources */,
-				1A123456789ABCDEF0000010 /* EnhancedTranslationStore.swift in Sources */,
-				1A123456789ABCDEF0000011 /* CoreMLTranslationService.swift in Sources */,
-				1A123456789ABCDEF0000012 /* FaceDetector.swift in Sources */,
-				1A123456789ABCDEF0000013 /* FaceCaptionService.swift in Sources */,
-				1A123456789ABCDEF0000014 /* EnhancedOverlayView.swift in Sources */,
+				1A123456789ABCDEF000001C /* EnhancedTranslationStore.swift in Sources */,
+				1A123456789ABCDEF000001D /* CoreMLTranslationService.swift in Sources */,
+				1A123456789ABCDEF000001E /* FaceDetector.swift in Sources */,
+				1A123456789ABCDEF0000020 /* FaceCaptionService.swift in Sources */,
+				1A123456789ABCDEF0000022 /* EnhancedOverlayView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
