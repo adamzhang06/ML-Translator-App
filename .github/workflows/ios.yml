@@ -23,19 +23,27 @@ jobs:
     - name: Show Xcode Version
       run: xcodebuild -version
     
+    - name: Debug - Show Repository Structure
+      run: |
+        echo "Repository root contents:"
+        ls -la
+        echo ""
+        echo "Looking for Xcode project files:"
+        find . -name "*.xcodeproj" -type d
+        echo ""
+        echo "TranslatorApp directory contents:"
+        ls -la TranslatorApp/ || echo "TranslatorApp directory not found"
+    
     - name: Show Available Schemes
       run: |
-        cd TranslatorApp
         xcodebuild -list -project TranslatorApp.xcodeproj
     
     - name: Clean Build Folder
       run: |
-        cd TranslatorApp
         xcodebuild clean -project TranslatorApp.xcodeproj -scheme TranslatorApp
     
     - name: Build for iOS Simulator
       run: |
-        cd TranslatorApp
         xcodebuild build \
           -project TranslatorApp.xcodeproj \
           -scheme TranslatorApp \
@@ -45,7 +53,6 @@ jobs:
     
     - name: Run Swift Tests (if any)
       run: |
-        cd TranslatorApp
         xcodebuild test \
           -project TranslatorApp.xcodeproj \
           -scheme TranslatorApp \
@@ -58,7 +65,6 @@ jobs:
     - name: Archive for Distribution
       if: github.ref == 'refs/heads/main'
       run: |
-        cd TranslatorApp
         xcodebuild archive \
           -project TranslatorApp.xcodeproj \
           -scheme TranslatorApp \
